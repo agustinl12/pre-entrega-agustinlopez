@@ -1,0 +1,16 @@
+@media screen and (min-width: 1024px) {
+    .content.prices {
+        height: 100vh;
+        padding: 50px;
+    }
+
+    .imagen2 img {
+        max-height: 80vh;
+        /* Limitamos la altura de la imagen en dispositivos grandes */
+    }
+
+    .contain2 {
+        max-width: 50%;
+        /* Reducimos el ancho del artículo en dispositivos grandes */
+    }
+}

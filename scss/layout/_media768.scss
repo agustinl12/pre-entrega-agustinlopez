@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px) {
+    .box-container {
+        grid-template-columns: 1fr;
+    }
+
+    .content.prices {
+        flex-direction: column;
+        /* Cambiamos la dirección del flex para apilar los elementos */
+        padding: 20px;
+        /* Ajustamos el espaciado para dispositivos móviles */
+    }
+
+    .imagen2 img {
+        max-width: 100%;
+        max-height: 50vh;
+    }
+
+    .contain2 {
+        max-width: 100%;
+        /* El artículo ocupará todo el ancho de la pantalla en móviles */
+    }
+}

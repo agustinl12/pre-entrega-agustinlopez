@@ -1,0 +1,96 @@
+// Header
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    font-size: 25px;
+    background: $primary-gradient;
+    color: white;
+
+    button.navbar-toggler {
+        background-color: rgb(84, 60, 60);
+    }
+
+    a.nav-link {
+        color: #fff;
+    }
+
+    h2.title {
+        color: #fff;
+    }
+
+    p {
+        color: #fff;
+    }
+
+    .title {
+        font-size: 3rem;
+        margin-bottom: 0.5rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    img {
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
+}
+
+.imagen1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+.content.prices {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(60, 59, 59, 0.7)),
+        url(./assets/img/foto.4.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+/* Animación de desvanecimiento */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+/* Estilos para el artículo */
+.contain2 {
+    max-width: 80%;
+    padding: 20px;
+    background-color: #111010;
+
+    .title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 1.5rem;
+        margin: 0;
+        background-color: #0c0c0c;
+    }
+}

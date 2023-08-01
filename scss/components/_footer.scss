@@ -1,0 +1,53 @@
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: $primary-gradient;
+    color: rgb(242, 232, 232);
+
+    .contacto,
+    .redes-sociales {
+        h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+    }
+
+    /* Estilos para las redes sociales */
+    .redes-sociales {
+        text-align: center;
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            li {
+                display: inline-block;
+                margin: 0 10px;
+
+                a {
+                    color: #f8f0f0;
+                    font-size: 1.5rem;
+                    text-decoration: none;
+
+                    i {
+                        transition: color 0.3s;
+                    }
+
+                    /* Estilos al pasar el ratón por encima de los íconos */
+                    &:hover i {
+                        color: #b4a71d;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Estilos específicos del artículo */
+article {
+    background-color: #020202;
+}
