@@ -1,4 +1,16 @@
-# pre-entrega-agustinlopez
+# pre-entrega-final-agustinlopez
+# Profesor - 	Maximiliano Cardenas.
+# Tutores Regulares CoderAsk -Joaquín De La Parra - Yeison Rodriguez.
+# Tutores Adjuntos CoderAsk -Damian Laterza.
+
+Tecnologías Utilizadas
+HTML:
+  Se ha utilizado HTML para la estructura y contenido de las páginas.
+CSS:
+  Se han aplicado estilos CSS para mejorar la apariencia y el diseño del sitio web.
+Bootstrap:
+  Se ha integrado Bootstrap para crear un diseño responsive y atractivo para distintos dispositivos.
+
 # PowerBodyFit - Entrenamiento y Acondicionamiento Físico
 
 ¡Bienvenido a PowerBodyFit! Somos tu destino para el entrenamiento y acondicionamiento físico. En nuestro gimnasio, ofrecemos una amplia variedad de programas de entrenamiento y servicios diseñados para ayudarte a alcanzar tus metas de acondicionamiento físico.
