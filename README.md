@@ -3,13 +3,17 @@
 # Tutores Regulares CoderAsk -Joaquín De La Parra - Yeison Rodriguez.
 # Tutores Adjuntos CoderAsk -Damian Laterza.
 
-Tecnologías Utilizadas
+#Tecnologías Utilizadas
+
 HTML:
   Se ha utilizado HTML para la estructura y contenido de las páginas.
+  
 CSS:
   Se han aplicado estilos CSS para mejorar la apariencia y el diseño del sitio web.
+  
 Bootstrap:
   Se ha integrado Bootstrap para crear un diseño responsive y atractivo para distintos dispositivos.
+  
 
 # PowerBodyFit - Entrenamiento y Acondicionamiento Físico
 
