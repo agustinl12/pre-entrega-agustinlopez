@@ -1,7 +1,7 @@
 /* Main */
 main {
     background-color: #0d0d0d;
-    padding: 2rem;
+    padding: 24px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -157,24 +157,24 @@ main {
 
     .title {
         display: flex;
-        align-items: center;
         justify-content: center;
+        margin-top: 0;
+        font-size: 50px;
     }
-}
-
-/* Estilo para la sección Nosotros */
-.nosotros-section {
-    padding: 50px 0;
-    background-color: #a29f9f;
+    .title p{
+        margin: 0;
+        font-size: 50px;
     }
-
-    img {
-        width: 100%;
-        max-width: 400px;
-        display: block;
-        margin: 0 auto;
-        border-radius: 10px;
-        
+    .imagen2 img {
+        max-width: 100%;
+        height: auto;
+    }
+    .contain2{
+        padding: 20px;
+        background-color: #383838;
+        text-align: center;
+    }
+    
     }
 
     /* Estilo para la sección Nosotros */
@@ -185,7 +185,8 @@ main {
 
         img {
             width: 100%;
-            max-width: 400px;
+            max-width: 600px;
+            justify-content: center;
             display: block;
             margin: 0 auto;
             border-radius: 10px;
@@ -194,7 +195,7 @@ main {
 
         h2.title {
             font-size: 28px;
-            color: #333;
+            color: #dcdcdc;
             margin-bottom: 20px;
         }
 
